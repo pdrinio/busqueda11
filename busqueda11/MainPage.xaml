@@ -7,7 +7,22 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid Background="Black">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="4*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid x:Name="paraFoto" Grid.Column="0" Grid.Row="0"/>
+        <Image x:Name="foto" Source="Assets\foto1.png" HorizontalAlignment="Center" VerticalAlignment="Center" Height="800" Width="800" />
+
+        <Grid x:Name="pie" Grid.Column="0" Grid.Row="1"  />
+        <TextBlock x:Name="txbEscanea" HorizontalAlignment="Center" Height="32" Margin="85,14,98,0" Grid.Row="1" TextWrapping="Wrap" Text="SCAN THE CODE!" VerticalAlignment="Top" Width="177" Foreground="White" FontSize="22"/>
+        <TextBox x:Name="txbCodigo" HorizontalAlignment="Center" Height="60" Margin="61,58,71,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="228" Background="Black" Foreground="AliceBlue"/>
+
 
     </Grid>
 </Page>
