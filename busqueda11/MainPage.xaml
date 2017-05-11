@@ -17,7 +17,7 @@
         </Grid.RowDefinitions>
 
         <Grid x:Name="paraFoto" Grid.Column="0" Grid.Row="0"/>
-        <Image x:Name="foto" Source="Assets\foto1.png" HorizontalAlignment="Center" VerticalAlignment="Center" Height="800" Width="800" />
+        <Image x:Name="foto" Source="Assets\hawk.png" HorizontalAlignment="Center" VerticalAlignment="Center" Height="800" Width="800" />
 
         <Grid x:Name="pie" Grid.Column="0" Grid.Row="1"  />
         <TextBlock x:Name="txEscanea" HorizontalAlignment="Center" Height="32" Margin="85,14,98,0" Grid.Row="1" TextWrapping="Wrap" Text="SCAN THE CODE!" VerticalAlignment="Top" Width="177" Foreground="White" FontSize="22"/>
